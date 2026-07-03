@@ -1,0 +1,52 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+venv/**
+.env/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# Environment variables (API keys!)
+.env
+*.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+*.pid
+
+# Cache/Vector store (large files)
+cache/
+*.faiss
+*.pkl
+*.pickle
+*.index
+
+# Logs
+*.log
+
+# Data (optional - agar nahi rakhna public)
+# data/*.json
+
+# Screenshots folder (RAKHENGE - isko push karein)
+# screenshots/
+
+# pycache
+**/__pycache__/
